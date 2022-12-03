@@ -15,7 +15,7 @@ function App() {
       <Link to="/Popcorn"> Popcorn </Link>
       <Link to="/PotatoChips"> Potato Chips </Link>
       <Link to="/Granola"> Granola </Link> */}
-      <NavBar/>
+      <NavBar>
       <Route exact path="/">
         <VendingMachine />
       </Route>
@@ -28,6 +28,7 @@ function App() {
       <Route exact path="/Granola">
         <Granola />
       </Route>
+      </NavBar>
       </BrowserRouter>
     </div>
   );
