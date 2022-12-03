@@ -1,6 +1,7 @@
 import React from "react";
 
 const PotatoChips = () => {
+    console.log(PotatoChips);
     return (
         <div>
             <h1>Potato Chips</h1>
