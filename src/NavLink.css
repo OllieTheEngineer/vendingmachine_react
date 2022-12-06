@@ -1,0 +1,18 @@
+.NavBar {
+    padding: 8px;
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 4px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
